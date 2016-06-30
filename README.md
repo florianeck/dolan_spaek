@@ -6,7 +6,7 @@
 
 `"Hello World".to_dolan # => "hlelo wrld"`
 
-`Dolan.spaek "Hello World" # => "hlelo wrld
+`Dolan.spaek "Hello World" # => "hlelo wrld"`
 
 ## wat els tu sai?
 
