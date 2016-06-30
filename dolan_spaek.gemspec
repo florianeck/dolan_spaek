@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name = "dolan_spaek"
-  s.version = "0.0.11"
+  s.version = "0.0.12"
   s.require_paths = ["lib"]
   s.authors = ["Florian Eck"]
   s.date = "2016-05-14"

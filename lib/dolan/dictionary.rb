@@ -6,7 +6,7 @@ module Dolan::Dictionary
   def self.get(word)
     if YAML.fetch(word, nil).is_a?(Array)
       YAML.fetch(word).sample
-    elsif YAML.fetch(word).is_a?(Array).is_a?(String)
+    elsif YAML.fetch(word, nil).is_a?(Array).is_a?(String)
       YAML.fetch(word)
     else
       word
